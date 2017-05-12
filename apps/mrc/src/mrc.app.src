@@ -5,7 +5,8 @@
   {mod, { mrc_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+	mysql
    ]},
   {env,[]},
   {modules, []},
