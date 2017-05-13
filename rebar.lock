@@ -1,3 +1,4 @@
+{"1.1.0",
 [{<<"emysql">>,
   {git,"https://github.com/yuilop/Emysql.git",
        {ref,"1909b7462189db96c2ba7648883c16ffb466720d"}},
@@ -17,4 +18,9 @@
  {<<"riakc">>,
   {git,"https://github.com/basho/riak-erlang-client.git",
        {ref,"f3a0592cf2200fd37b46b5188cabd4cf7058d776"}},
-  0}].
+  0},
+ {<<"sync">>,{pkg,<<"sync">>,<<"0.1.3">>},0}]}.
+[
+{pkg_hash,[
+ {<<"sync">>, <<"C5785FE1311542B76355F403B8E0B35E30DBBEE1F5E89968748CEA4D0A20D289">>}]}
+].

@@ -6,7 +6,8 @@
   {applications,
    [kernel,
     stdlib,
-	mysql
+	mysql,
+	sync
    ]},
   {env,[]},
   {modules, []},
